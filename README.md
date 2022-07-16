@@ -48,26 +48,26 @@ java -cp ./wcloud.jar ie.gmit.dip.Runner
 * Once the main menu is showing in the terminal there will be eight options to choose from:
 
 
-- 1) Load a new file: The user will be able to select a text file from its own machine, typing the full path
+1) Load a new file: The user will be able to select a text file from its own machine, typing the full path
 
 and entering a name to save the new file. This file will be saved in a folder called << Output >>, which is located in the src folder. 
 
-- 2) Ignore Words: Java class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and returns non-stop words in an array
+2) Ignore Words: Java class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and returns non-stop words in an array
 
-- 3) Word Frequency: Java class that displays the words of the file (TagCloud.txt) in a frequency table in descending order (using a Tree Set)
+3) Word Frequency: Java class that displays the words of the file (TagCloud.txt) in a frequency table in descending order (using a Tree Set)
 
-- 4) Word Frequency with Ignore Words: Java Class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and produces a table of the most frequent words found in the text (file.txt). 
+4) Word Frequency with Ignore Words: Java Class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and produces a table of the most frequent words found in the text (file.txt). 
 The output is in decreasing usage of words. 
 
-- 5) Word Cloud: Generate a PNG (portable network graphics) file with a word-cloud displaying the most frequent words in decreasing font size, style and colour from the file (TagCloud.txt) with ignorewords removed. 
+5) Word Cloud: Generate a PNG (portable network graphics) file with a word-cloud displaying the most frequent words in decreasing font size, style and colour from the file (TagCloud.txt) with ignorewords removed. 
 The text is drawn directly to a Canvas. The font size can be changed when drawing with a java.awt.Graphicsobject.
 This file will be saved in a folder called << Output >>, which is located in the src folder.
 
-- 6) [Extra] Word Frequency: Java class that displays the words of the file (TagCloud.txt) in a frequency table in descending order (using a Hash Map)
+6) [Extra] Word Frequency: Java class that displays the words of the file (TagCloud.txt) in a frequency table in descending order (using a Hash Map)
 
-- 7) [Extra] Draw random text with fontSize based on word frequency (from TagCloud.txt) on the BufferedImage. Uses Graphics2D for rendering images. 
+7) [Extra] Draw random text with fontSize based on word frequency (from TagCloud.txt) on the BufferedImage. Uses Graphics2D for rendering images. 
 
-- 8) Quit: Option used to terminate the program.
+8) Quit: Option used to terminate the program.
 
 
 ## FAQ
