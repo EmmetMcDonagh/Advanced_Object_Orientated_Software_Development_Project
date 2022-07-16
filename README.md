@@ -18,8 +18,6 @@ Submitted to: Dr. John Healy
 
 * References
 
-
-
 ## INTRODUCTION
 
 Word-clouds are a mechanism for generating a visual representation of text and are used to display a visual summary of the most prominent words used on a web page, a news forum or a social media web site. 
@@ -47,21 +45,15 @@ java -cp ./wcloud.jar ie.gmit.dip.Runner
 
 * Once the main menu is showing in the terminal there will be eight options to choose from:
 
-
-1) Load a new file: The user will be able to select a text file from its own machine, typing the full path
-
-and entering a name to save the new file. This file will be saved in a folder called << Output >>, which is located in the src folder. 
+1) Load a new file: The user will be able to select a text file from its own machine, typing the full path and entering a name to save the new file. This file will be saved in a folder called << Output >>, which is located in the src folder. 
 
 2) Ignore Words: Java class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and returns non-stop words in an array
 
 3) Word Frequency: Java class that displays the words of the file (TagCloud.txt) in a frequency table in descending order (using a Tree Set)
 
-4) Word Frequency with Ignore Words: Java Class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and produces a table of the most frequent words found in the text (file.txt). 
-The output is in decreasing usage of words. 
+4) Word Frequency with Ignore Words: Java Class that removes ignore words listed in ignorewords.txt from the file (TagCloud.txt) and produces a table of the most frequent words found in the text (file.txt). The output is in decreasing usage of words. 
 
-5) Word Cloud: Generate a PNG (portable network graphics) file with a word-cloud displaying the most frequent words in decreasing font size, style and colour from the file (TagCloud.txt) with ignorewords removed. 
-The text is drawn directly to a Canvas. The font size can be changed when drawing with a java.awt.Graphicsobject.
-This file will be saved in a folder called << Output >>, which is located in the src folder.
+5) Word Cloud: Generate a PNG (portable network graphics) file with a word-cloud displaying the most frequent words in decreasing font size, style and colour from the file (TagCloud.txt) with ignorewords removed. The text is drawn directly to a Canvas. The font size can be changed when drawing with a java.awt.Graphicsobject. This file will be saved in a folder called << Output >>, which is located in the src folder.
 
 6) [Extra] Word Frequency: Java class that displays the words of the file (TagCloud.txt) in a frequency table in descending order (using a Hash Map)
 
